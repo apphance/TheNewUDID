@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624B6E53152C281100ACA83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E52152C281100ACA83E /* UIKit.framework */; };
+		624B6E55152C281100ACA83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E54152C281100ACA83E /* Foundation.framework */; };
+		624B6E57152C281100ACA83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E56152C281100ACA83E /* CoreGraphics.framework */; };
+		624B6E5D152C281100ACA83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 624B6E5B152C281100ACA83E /* InfoPlist.strings */; };
+		624B6E5F152C281100ACA83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6E5E152C281100ACA83E /* main.m */; };
+		624B6E63152C281100ACA83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6E62152C281100ACA83E /* AppDelegate.m */; };
+		624B6E6F152C285400ACA83E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E52152C281100ACA83E /* UIKit.framework */; };
+		624B6E70152C285400ACA83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E54152C281100ACA83E /* Foundation.framework */; };
+		624B6E71152C285400ACA83E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6E56152C281100ACA83E /* CoreGraphics.framework */; };
+		624B6E77152C285400ACA83E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 624B6E75152C285400ACA83E /* InfoPlist.strings */; };
+		624B6E79152C285400ACA83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6E78152C285400ACA83E /* main.m */; };
+		624B6E7D152C285400ACA83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6E7C152C285400ACA83E /* AppDelegate.m */; };
+		624B6F63152C30F500ACA83E /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6F62152C30F500ACA83E /* Cedar-iOS.framework */; };
+		624B6F63152C30F500ACA841 /* TNUAppSpecificUDIDSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6F63152C30F500ACA840 /* TNUAppSpecificUDIDSpec.m */; };
+		624B6F63152C30F500ACA844 /* TNUAppSpecificUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6F63152C30F500ACA843 /* TNUAppSpecificUDID.m */; };
+		624B6F63152C30F500ACA845 /* TNUAppSpecificUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6F63152C30F500ACA843 /* TNUAppSpecificUDID.m */; };
+		624B6F81152C33B300ACA83E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6F7E152C33A800ACA83E /* Security.framework */; };
+		624B6F82152C33B400ACA83E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6F7E152C33A800ACA83E /* Security.framework */; };
+		624B6F9F152C365800ACA83E /* libExpecta-ios-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B6F9A152C365800ACA83E /* libExpecta-ios-universal.a */; };
+		624B6FA0152C365800ACA83E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 624B6F9B152C365800ACA83E /* LICENSE */; };
+		624B6FA1152C365800ACA83E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 624B6F9E152C365800ACA83E /* README.md */; };
+		624B6FA1152C365800ACA841 /* TNUAppSpecificUDID+SpecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 624B6FA1152C365800ACA840 /* TNUAppSpecificUDID+SpecHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		624B6E4E152C281100ACA83E /* TheNewUDID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNewUDID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624B6E52152C281100ACA83E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		624B6E54152C281100ACA83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		624B6E56152C281100ACA83E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		624B6E5A152C281100ACA83E /* TheNewUDID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheNewUDID-Info.plist"; sourceTree = "<group>"; };
+		624B6E5C152C281100ACA83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		624B6E5E152C281100ACA83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624B6E60152C281100ACA83E /* TheNewUDID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheNewUDID-Prefix.pch"; sourceTree = "<group>"; };
+		624B6E61152C281100ACA83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624B6E62152C281100ACA83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624B6E6D152C285400ACA83E /* TheNewUDIDSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNewUDIDSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624B6E74152C285400ACA83E /* TheNewUDIDSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheNewUDIDSpecs-Info.plist"; sourceTree = "<group>"; };
+		624B6E76152C285400ACA83E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		624B6E78152C285400ACA83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624B6E7A152C285400ACA83E /* TheNewUDIDSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheNewUDIDSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		624B6E7B152C285400ACA83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624B6E7C152C285400ACA83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624B6F62152C30F500ACA83E /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Cedar-iOS.framework"; sourceTree = "<group>"; };
+		624B6F63152C30F500ACA840 /* TNUAppSpecificUDIDSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNUAppSpecificUDIDSpec.m; sourceTree = "<group>"; };
+		624B6F63152C30F500ACA843 /* TNUAppSpecificUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNUAppSpecificUDID.m; sourceTree = "<group>"; };
+		624B6F63152C30F500ACA846 /* TNUAppSpecificUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNUAppSpecificUDID.h; sourceTree = "<group>"; };
+		624B6F7E152C33A800ACA83E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		624B6F84152C365800ACA83E /* EXPDoubleTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPDoubleTuple.h; sourceTree = "<group>"; };
+		624B6F85152C365800ACA83E /* Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expecta.h; sourceTree = "<group>"; };
+		624B6F86152C365800ACA83E /* ExpectaSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectaSupport.h; sourceTree = "<group>"; };
+		624B6F87152C365800ACA83E /* EXPExpect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPExpect.h; sourceTree = "<group>"; };
+		624B6F88152C365800ACA83E /* EXPFloatTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPFloatTuple.h; sourceTree = "<group>"; };
+		624B6F89152C365800ACA83E /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		624B6F8A152C365800ACA83E /* EXPMatchers+toBeFalsy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeFalsy.h"; sourceTree = "<group>"; };
+		624B6F8B152C365800ACA83E /* EXPMatchers+toBeGreaterThan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeGreaterThan.h"; sourceTree = "<group>"; };
+		624B6F8C152C365800ACA83E /* EXPMatchers+toBeGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		624B6F8D152C365800ACA83E /* EXPMatchers+toBeIdenticalTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeIdenticalTo.h"; sourceTree = "<group>"; };
+		624B6F8E152C365800ACA83E /* EXPMatchers+toBeInstanceOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeInstanceOf.h"; sourceTree = "<group>"; };
+		624B6F8F152C365800ACA83E /* EXPMatchers+toBeInTheRangeOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeInTheRangeOf.h"; sourceTree = "<group>"; };
+		624B6F90152C365800ACA83E /* EXPMatchers+toBeKindOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeKindOf.h"; sourceTree = "<group>"; };
+		624B6F91152C365800ACA83E /* EXPMatchers+toBeLessThan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeLessThan.h"; sourceTree = "<group>"; };
+		624B6F92152C365800ACA83E /* EXPMatchers+toBeLessThanOrEqualTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		624B6F93152C365800ACA83E /* EXPMatchers+toBeNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeNil.h"; sourceTree = "<group>"; };
+		624B6F94152C365800ACA83E /* EXPMatchers+toBeSubclassOf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeSubclassOf.h"; sourceTree = "<group>"; };
+		624B6F95152C365800ACA83E /* EXPMatchers+toBeTruthy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toBeTruthy.h"; sourceTree = "<group>"; };
+		624B6F96152C365800ACA83E /* EXPMatchers+toContain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toContain.h"; sourceTree = "<group>"; };
+		624B6F97152C365800ACA83E /* EXPMatchers+toEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+toEqual.h"; sourceTree = "<group>"; };
+		624B6F98152C365800ACA83E /* EXPMatchers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPMatchers.h; sourceTree = "<group>"; };
+		624B6F99152C365800ACA83E /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		624B6F9A152C365800ACA83E /* libExpecta-ios-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libExpecta-ios-universal.a"; sourceTree = "<group>"; };
+		624B6F9B152C365800ACA83E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		624B6F9C152C365800ACA83E /* NSObject+Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Expecta.h"; sourceTree = "<group>"; };
+		624B6F9D152C365800ACA83E /* NSValue+Expecta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+Expecta.h"; sourceTree = "<group>"; };
+		624B6F9E152C365800ACA83E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		624B6FA1152C365800ACA840 /* TNUAppSpecificUDID+SpecHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TNUAppSpecificUDID+SpecHelper.m"; sourceTree = "<group>"; };
+		624B6FA1152C365800ACA842 /* TNUAppSpecificUDID+SpecHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TNUAppSpecificUDID+SpecHelper.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624B6E4B152C281100ACA83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E53152C281100ACA83E /* UIKit.framework in Frameworks */,
+				624B6E55152C281100ACA83E /* Foundation.framework in Frameworks */,
+				624B6E57152C281100ACA83E /* CoreGraphics.framework in Frameworks */,
+				624B6F81152C33B300ACA83E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624B6E6A152C285400ACA83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E6F152C285400ACA83E /* UIKit.framework in Frameworks */,
+				624B6E70152C285400ACA83E /* Foundation.framework in Frameworks */,
+				624B6E71152C285400ACA83E /* CoreGraphics.framework in Frameworks */,
+				624B6F63152C30F500ACA83E /* Cedar-iOS.framework in Frameworks */,
+				624B6F82152C33B400ACA83E /* Security.framework in Frameworks */,
+				624B6F9F152C365800ACA83E /* libExpecta-ios-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624B6E43152C281000ACA83E = {
+			isa = PBXGroup;
+			children = (
+				624B6E58152C281100ACA83E /* TheNewUDID */,
+				624B6E72152C285400ACA83E /* TheNewUDIDSpecs */,
+				624B6E51152C281100ACA83E /* Frameworks */,
+				624B6E4F152C281100ACA83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624B6E4F152C281100ACA83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624B6E4E152C281100ACA83E /* TheNewUDID.app */,
+				624B6E6D152C285400ACA83E /* TheNewUDIDSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624B6E51152C281100ACA83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				624B6F7E152C33A800ACA83E /* Security.framework */,
+				624B6E52152C281100ACA83E /* UIKit.framework */,
+				624B6E54152C281100ACA83E /* Foundation.framework */,
+				624B6E56152C281100ACA83E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		624B6E58152C281100ACA83E /* TheNewUDID */ = {
+			isa = PBXGroup;
+			children = (
+				624B6E61152C281100ACA83E /* AppDelegate.h */,
+				624B6E62152C281100ACA83E /* AppDelegate.m */,
+				624B6E59152C281100ACA83E /* Supporting Files */,
+				624B6F63152C30F500ACA842 /* Classes */,
+			);
+			path = TheNewUDID;
+			sourceTree = "<group>";
+		};
+		624B6E59152C281100ACA83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624B6E5A152C281100ACA83E /* TheNewUDID-Info.plist */,
+				624B6E5B152C281100ACA83E /* InfoPlist.strings */,
+				624B6E5E152C281100ACA83E /* main.m */,
+				624B6E60152C281100ACA83E /* TheNewUDID-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624B6E72152C285400ACA83E /* TheNewUDIDSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				624B6EA5152C294D00ACA83E /* Externals */,
+				624B6E7B152C285400ACA83E /* AppDelegate.h */,
+				624B6E7C152C285400ACA83E /* AppDelegate.m */,
+				624B6E73152C285400ACA83E /* Supporting Files */,
+				624B6F63152C30F500ACA83F /* Classes */,
+				624B6FA1152C365800ACA83F /* Helpers */,
+			);
+			path = TheNewUDIDSpecs;
+			sourceTree = "<group>";
+		};
+		624B6E73152C285400ACA83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624B6E74152C285400ACA83E /* TheNewUDIDSpecs-Info.plist */,
+				624B6E75152C285400ACA83E /* InfoPlist.strings */,
+				624B6E78152C285400ACA83E /* main.m */,
+				624B6E7A152C285400ACA83E /* TheNewUDIDSpecs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624B6EA5152C294D00ACA83E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				624B6F83152C365800ACA83E /* Expecta */,
+				624B6F62152C30F500ACA83E /* Cedar-iOS.framework */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		624B6F63152C30F500ACA83F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				624B6F63152C30F500ACA840 /* TNUAppSpecificUDIDSpec.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		624B6F63152C30F500ACA842 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				624B6F63152C30F500ACA846 /* TNUAppSpecificUDID.h */,
+				624B6F63152C30F500ACA843 /* TNUAppSpecificUDID.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		624B6F83152C365800ACA83E /* Expecta */ = {
+			isa = PBXGroup;
+			children = (
+				624B6F84152C365800ACA83E /* EXPDoubleTuple.h */,
+				624B6F85152C365800ACA83E /* Expecta.h */,
+				624B6F86152C365800ACA83E /* ExpectaSupport.h */,
+				624B6F87152C365800ACA83E /* EXPExpect.h */,
+				624B6F88152C365800ACA83E /* EXPFloatTuple.h */,
+				624B6F89152C365800ACA83E /* EXPMatcherHelpers.h */,
+				624B6F8A152C365800ACA83E /* EXPMatchers+toBeFalsy.h */,
+				624B6F8B152C365800ACA83E /* EXPMatchers+toBeGreaterThan.h */,
+				624B6F8C152C365800ACA83E /* EXPMatchers+toBeGreaterThanOrEqualTo.h */,
+				624B6F8D152C365800ACA83E /* EXPMatchers+toBeIdenticalTo.h */,
+				624B6F8E152C365800ACA83E /* EXPMatchers+toBeInstanceOf.h */,
+				624B6F8F152C365800ACA83E /* EXPMatchers+toBeInTheRangeOf.h */,
+				624B6F90152C365800ACA83E /* EXPMatchers+toBeKindOf.h */,
+				624B6F91152C365800ACA83E /* EXPMatchers+toBeLessThan.h */,
+				624B6F92152C365800ACA83E /* EXPMatchers+toBeLessThanOrEqualTo.h */,
+				624B6F93152C365800ACA83E /* EXPMatchers+toBeNil.h */,
+				624B6F94152C365800ACA83E /* EXPMatchers+toBeSubclassOf.h */,
+				624B6F95152C365800ACA83E /* EXPMatchers+toBeTruthy.h */,
+				624B6F96152C365800ACA83E /* EXPMatchers+toContain.h */,
+				624B6F97152C365800ACA83E /* EXPMatchers+toEqual.h */,
+				624B6F98152C365800ACA83E /* EXPMatchers.h */,
+				624B6F99152C365800ACA83E /* EXPUnsupportedObject.h */,
+				624B6F9A152C365800ACA83E /* libExpecta-ios-universal.a */,
+				624B6F9B152C365800ACA83E /* LICENSE */,
+				624B6F9C152C365800ACA83E /* NSObject+Expecta.h */,
+				624B6F9D152C365800ACA83E /* NSValue+Expecta.h */,
+				624B6F9E152C365800ACA83E /* README.md */,
+			);
+			path = Expecta;
+			sourceTree = "<group>";
+		};
+		624B6FA1152C365800ACA83F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				624B6FA1152C365800ACA842 /* TNUAppSpecificUDID+SpecHelper.h */,
+				624B6FA1152C365800ACA840 /* TNUAppSpecificUDID+SpecHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624B6E4D152C281100ACA83E /* TheNewUDID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624B6E66152C281100ACA83E /* Build configuration list for PBXNativeTarget "TheNewUDID" */;
+			buildPhases = (
+				624B6E4A152C281100ACA83E /* Sources */,
+				624B6E4B152C281100ACA83E /* Frameworks */,
+				624B6E4C152C281100ACA83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheNewUDID;
+			productName = PolideaBoilerplate;
+			productReference = 624B6E4E152C281100ACA83E /* TheNewUDID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624B6E6C152C285400ACA83E /* TheNewUDIDSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624B6E7E152C285400ACA83E /* Build configuration list for PBXNativeTarget "TheNewUDIDSpecs" */;
+			buildPhases = (
+				624B6E69152C285400ACA83E /* Sources */,
+				624B6E6A152C285400ACA83E /* Frameworks */,
+				624B6E6B152C285400ACA83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheNewUDIDSpecs;
+			productName = PolideaBoilerplateSpecs;
+			productReference = 624B6E6D152C285400ACA83E /* TheNewUDIDSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624B6E45152C281000ACA83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 624B6E48152C281000ACA83E /* Build configuration list for PBXProject "TheNewUDID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 624B6E43152C281000ACA83E;
+			productRefGroup = 624B6E4F152C281100ACA83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624B6E4D152C281100ACA83E /* TheNewUDID */,
+				624B6E6C152C285400ACA83E /* TheNewUDIDSpecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624B6E4C152C281100ACA83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E5D152C281100ACA83E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624B6E6B152C285400ACA83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E77152C285400ACA83E /* InfoPlist.strings in Resources */,
+				624B6FA0152C365800ACA83E /* LICENSE in Resources */,
+				624B6FA1152C365800ACA83E /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624B6E4A152C281100ACA83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E5F152C281100ACA83E /* main.m in Sources */,
+				624B6E63152C281100ACA83E /* AppDelegate.m in Sources */,
+				624B6F63152C30F500ACA844 /* TNUAppSpecificUDID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624B6E69152C285400ACA83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624B6E79152C285400ACA83E /* main.m in Sources */,
+				624B6E7D152C285400ACA83E /* AppDelegate.m in Sources */,
+				624B6F63152C30F500ACA841 /* TNUAppSpecificUDIDSpec.m in Sources */,
+				624B6F63152C30F500ACA845 /* TNUAppSpecificUDID.m in Sources */,
+				624B6FA1152C365800ACA841 /* TNUAppSpecificUDID+SpecHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		624B6E5B152C281100ACA83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624B6E5C152C281100ACA83E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		624B6E75152C285400ACA83E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624B6E76152C285400ACA83E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624B6E64152C281100ACA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		624B6E65152C281100ACA83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624B6E67152C281100ACA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheNewUDID/TheNewUDID-Prefix.pch";
+				INFOPLIST_FILE = "TheNewUDID/TheNewUDID-Info.plist";
+				PRODUCT_NAME = TheNewUDID;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		624B6E68152C281100ACA83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheNewUDID/TheNewUDID-Prefix.pch";
+				INFOPLIST_FILE = "TheNewUDID/TheNewUDID-Info.plist";
+				PRODUCT_NAME = TheNewUDID;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		624B6E7F152C285400ACA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TheNewUDIDSpecs/Externals\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheNewUDIDSpecs/TheNewUDIDSpecs-Prefix.pch";
+				INFOPLIST_FILE = "TheNewUDIDSpecs/TheNewUDIDSpecs-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TheNewUDIDSpecs/Externals/Expecta\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = TheNewUDIDSpecs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		624B6E80152C285400ACA83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TheNewUDIDSpecs/Externals\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheNewUDIDSpecs/TheNewUDIDSpecs-Prefix.pch";
+				INFOPLIST_FILE = "TheNewUDIDSpecs/TheNewUDIDSpecs-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TheNewUDIDSpecs/Externals/Expecta\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = TheNewUDIDSpecs;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624B6E48152C281000ACA83E /* Build configuration list for PBXProject "TheNewUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624B6E64152C281100ACA83E /* Debug */,
+				624B6E65152C281100ACA83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624B6E66152C281100ACA83E /* Build configuration list for PBXNativeTarget "TheNewUDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624B6E67152C281100ACA83E /* Debug */,
+				624B6E68152C281100ACA83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624B6E7E152C285400ACA83E /* Build configuration list for PBXNativeTarget "TheNewUDIDSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624B6E7F152C285400ACA83E /* Debug */,
+				624B6E80152C285400ACA83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624B6E45152C281000ACA83E /* Project object */;
+}
