@@ -57,12 +57,12 @@ NSString *const TNUUniqueKeychainAttributeServiceIdentifier = @"TNUUniqueKeychai
 }
 
 - (void)clearUDID {
-    SecItemDelete([self baseQuery]);
+    SecItemDelete((CFDictionaryRef)[self baseQuery]);
 }
 
-- (NSData *)generateNewUDID {
+- (NSData *)generateUDID {
     const CFUUIDRef cfUUID = CFUUIDCreate(NULL);
-    NSString *stringRepresentation = CFUUIDCreateString(NULL, cfUUID);
+    NSString *stringRepresentation = [(NSString*)CFUUIDCreateString(NULL, cfUUID) autorelease];
     CFRelease(cfUUID);
     return [stringRepresentation dataUsingEncoding:NSUTF8StringEncoding];
 }
@@ -81,7 +81,7 @@ NSString *const TNUUniqueKeychainAttributeServiceIdentifier = @"TNUUniqueKeychai
     OSStatus status = SecItemCopyMatching((CFDictionaryRef) dictionary, (CFTypeRef *) &data);
 
     if (status == errSecItemNotFound) {
-        data = [self generateNewUDID];
+        data = [self generateUDID];
         [self writeDataToKeychain:data];
     }
     NSString *const applicationUDID = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
